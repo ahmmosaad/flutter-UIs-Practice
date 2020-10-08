@@ -1,16 +1,9 @@
-# ui_practice
+# FLutter UI Practice 
 
-A new Flutter application.
+i will publish smart ui in this repo contenusly 
 
-## Getting Started
+## First app Lamb Shop
+![WhatsApp Image 2020-10-08 at 21 45 22 (1)](https://user-images.githubusercontent.com/61664888/95507848-5a5ff980-09b2-11eb-9eb3-669483aa1c50.jpeg)
+![WhatsApp Image 2020-10-08 at 21 45 22](https://user-images.githubusercontent.com/61664888/95507892-6cda3300-09b2-11eb-8a75-a0e90fa7123d.jpeg)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
