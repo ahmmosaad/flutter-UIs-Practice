@@ -43,7 +43,7 @@ class ProductDetails extends StatelessWidget {
                     left: 100,
                     bottom: 0,
                     child: Image.asset(
-                      'asset/lamb.png',
+                      'asset/lamp_shop/lamb.png',
                       height: size.height * .5,
                     ),
                   ),

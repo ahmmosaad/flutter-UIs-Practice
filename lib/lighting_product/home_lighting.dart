@@ -55,6 +55,37 @@ class HomeLighting extends StatelessWidget {
                         shrinkWrap: true,
                         children: [
                           GestureDetector(
+                            onTap: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=> ProductDetails()));
+                            },
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Container(
+
+                                    height: size.height * .33,
+                                    width: size.width / 1.9,
+                                    decoration: BoxDecoration(
+                                        color: elMedium,
+                                        borderRadius: BorderRadius.all(Radius.circular(25))
+                                    ),
+                                    child: Image.asset('asset/lighting_products/supermaic.png', fit: BoxFit.cover,),
+                                  ),
+                                  SizedBox(height: 15,),
+                                  Text(
+                                    'EL Lamp Medium CS2',
+                                    style: TextStyle(
+                                        color: Colors.grey.withOpacity(.9),
+                                        fontSize: 18, fontWeight: FontWeight.bold),
+                                  ),
+                                  Text('€ 420', style: TextStyle(color: catgBackColor, fontSize: 16, fontWeight: FontWeight.bold),)
+                                ],
+                              ),
+                            ),
+                          ),
+                          GestureDetector(
                            onTap: (){
                              Navigator.push(context, MaterialPageRoute(builder: (context)=> ProductDetails()));
                            },
@@ -68,7 +99,7 @@ class HomeLighting extends StatelessWidget {
                                     height: size.height * .33,
                                     width: size.width / 1.9,
                                     decoration: BoxDecoration(
-                                        color: elMedium,
+                                        color: productBackColors[1],
                                         borderRadius: BorderRadius.all(Radius.circular(25))
                                     ),
                                     child: Image.asset('asset/lighting_products/ElC50.png', fit: BoxFit.cover,),
@@ -85,37 +116,7 @@ class HomeLighting extends StatelessWidget {
                               ),
                             ),
                           ),
-                          GestureDetector(
-                            onTap: (){
-                              Navigator.push(context, MaterialPageRoute(builder: (context)=> ProductDetails()));
-                            },
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Container(
 
-                                    height: size.height * .33,
-                                    width: size.width / 1.9,
-                                    decoration: BoxDecoration(
-                                        color: elLambBack,
-                                        borderRadius: BorderRadius.all(Radius.circular(25))
-                                    ),
-                                    child: Image.asset('asset/lighting_products/elMedium.png', fit: BoxFit.cover,),
-                                  ),
-                                  SizedBox(height: 15,),
-                                  Text(
-                                    'EL Lamp Medium CS2',
-                                    style: TextStyle(
-                                        color: Colors.grey.withOpacity(.9),
-                                        fontSize: 18, fontWeight: FontWeight.bold),
-                                  ),
-                                  Text('€ 420', style: TextStyle(color: catgBackColor, fontSize: 16, fontWeight: FontWeight.bold),)
-                                ],
-                              ),
-                            ),
-                          ),
                         ],
                       ),
                     )
