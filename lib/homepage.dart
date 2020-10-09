@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:ui_practice/lamb_shop/consts.dart';
 import 'package:ui_practice/lamb_shop/home_lamb.dart';
+import 'package:ui_practice/lighting_product/const_lighting.dart';
+import 'package:ui_practice/lighting_product/home_lighting.dart';
 
 
 
@@ -22,6 +24,12 @@ class HomePage extends StatelessWidget {
               child: Text('Lamb shop'),
                 onPressed: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> HomeLamb()));
+                }),
+            MaterialButton(
+                color: productBackColors[0],
+                child: Text('Lighting Product'),
+                onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> HomeLighting()));
                 })
           ],
         ),

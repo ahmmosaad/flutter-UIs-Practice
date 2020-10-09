@@ -115,7 +115,7 @@ class HomeLamb extends StatelessWidget {
                               left: 50,
                               bottom: 0,
                               child: Image.asset(
-                                'asset/lamb.png',
+                                'asset/lamp_shop/lamb.png',
                                 height: size.height * .405,
                               )),
                           Positioned(
@@ -210,7 +210,7 @@ class HomeLamb extends StatelessWidget {
                               left: 50,
                               bottom: 0,
                               child: Image.asset(
-                                'asset/lamb.png',
+                                'asset/lamp_shop/lamb.png',
                                 height: size.height * .405,
                               )),
                           Positioned(
@@ -316,7 +316,7 @@ class HomeLamb extends StatelessWidget {
                           bottom: 0,
                           left: 35,
                           child: Image.asset(
-                            'asset/chair.png',
+                            'asset/lamp_shop/chair.png',
                             height: size.height * .27,
                             width: size.width * .5,
                           ),
@@ -368,7 +368,7 @@ class HomeLamb extends StatelessWidget {
                           bottom: 9,
 
                           child: Image.asset(
-                            'asset/vasa.png',
+                            'asset/lamp_shop/vasa.png',
                             height: size.height * .25,
                             width: size.width * .5,
                           ),
