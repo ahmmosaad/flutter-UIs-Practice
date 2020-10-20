@@ -215,6 +215,7 @@ class CurvedSideContainer extends CustomPainter{
 
      var path = Path();
 
+     
      path.moveTo(0, size.height *.35);
      path.relativeCubicTo(
          size.width *.05, size.height * .15,
@@ -223,9 +224,6 @@ class CurvedSideContainer extends CustomPainter{
      path.lineTo(size.width, 0);
      path.lineTo(0, 0);
      canvas.drawPath(path, paint);
-
-
-
   }
 
   @override
@@ -248,7 +246,6 @@ class ColorContainer extends StatefulWidget {
   @override
   _ColorContainerState createState() => _ColorContainerState();
 }
-
 class _ColorContainerState extends State<ColorContainer> {
 
 

@@ -4,6 +4,8 @@ import 'package:ui_practice/lamb_shop/consts.dart';
 import 'package:ui_practice/lamb_shop/home_lamb.dart';
 import 'package:ui_practice/lighting_product/const_lighting.dart';
 import 'package:ui_practice/lighting_product/home_lighting.dart';
+import 'package:ui_practice/others/const.dart';
+import 'package:ui_practice/others/currancy_post.dart';
 
 
 
@@ -17,7 +19,8 @@ class HomePage extends StatelessWidget {
       body: Container(
         width: double.infinity,
         child: Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             MaterialButton(
               color: lambBackColor,
@@ -30,7 +33,13 @@ class HomePage extends StatelessWidget {
                 child: Text('Lighting Product'),
                 onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context)=> HomeLighting()));
-                })
+                }),
+            MaterialButton(
+                color: pDark,
+                child: Text('Currancy Post'),
+                onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> CurrancyHome()));
+                }),
           ],
         ),
       ),
